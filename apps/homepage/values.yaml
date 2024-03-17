@@ -59,7 +59,7 @@ app-template:
           - Development:
             - Github:
                 href: https://github.com/captainsloths
-                description: Git forge
+                description: The heart
                 icon: github.svg
             - ArgoCD:
                 href: https://argo.biggibson.cocotree.cc
