@@ -12,6 +12,10 @@ app-template:
         http:
           port: 3000
           protocol: HTTP
+  serviceaccount:
+    create: true
+    name: homepage
+  enableRbac: true
   ingress:
     main:
       enabled: true
