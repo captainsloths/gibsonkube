@@ -102,6 +102,11 @@ app-template:
                 href: https://speedtest.biggibson.cocotree.cc
                 description: Internal network speed test
                 icon: openspeedtest.png
+          - Smarthome:
+            - Home Assistant:
+                href: https://homeass.biggibson.cocotree.cc:8123
+                description: Ultimate control over the home
+                icon: home-assistant.svg
         bookmarks.yaml: |
           - Homelab:
             - Public homelab repository:
