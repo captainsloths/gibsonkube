@@ -97,7 +97,7 @@ app-template:
                 icon: tailscale.svg
           - Infrastructure:
             - Router:
-              - href: http://10.27.27.1:440
+              - href: http://10.27.27.1
                 icon: router.svg
             - Adguard:
               - href: http://10.27.27.1:81
