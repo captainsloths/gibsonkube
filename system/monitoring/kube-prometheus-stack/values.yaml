@@ -16,7 +16,7 @@ kube-prometheus-stack:
       server:
         root_url: http://grafana.biggibson.cocotree.cc
       auth.anonymous:
-        enabled: true
+        enabled: false
 
   prometheus:
     prometheusSpec:
