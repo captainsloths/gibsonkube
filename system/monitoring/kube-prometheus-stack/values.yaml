@@ -7,6 +7,9 @@ kube-prometheus-stack:
       ingressClassName: nginx
       hosts:
         - grafana.biggibson.cocotree.cc
+      tls:
+        - hosts:
+          - grafana.biggibson.cocotree.cc 
     persistence:
       enabled: false
     grafana.ini:
@@ -26,3 +29,6 @@ kube-prometheus-stack:
       ingressClassName: nginx
       hosts:
         - prometheus.biggibson.cocotree.cc
+      tls:
+        - hosts:
+            - prometheus.biggibson.cocotree.cc
