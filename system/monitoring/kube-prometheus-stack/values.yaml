@@ -1,6 +1,5 @@
 kube-prometheus-stack:
   grafana:
-    adminPassword: null
     defaultDashboardsEnabled: true
     ingress:
       enabled: true
@@ -15,8 +14,6 @@ kube-prometheus-stack:
     grafana.ini:
       server:
         root_url: http://grafana.biggibson.cocotree.cc
-      auth.anonymous:
-        enabled: false
 
   prometheus:
     prometheusSpec:
