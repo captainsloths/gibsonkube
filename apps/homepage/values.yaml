@@ -94,6 +94,10 @@ app-template:
                 description: Primary Grafana datasource
                 icon: prometheus.svg
           - Utilities:
+            - Vaultwarden:
+                href: https://vault.biggibson.cocotree.cc
+                description: You shall not pass.
+                icon: vaultwarden.svg
             - Excalidraw:
                 href: https://draw.biggibson.cocotree.cc
                 description: Virtual whiteboard
