@@ -1,0 +1,28 @@
+kube-prometheus-stack:
+  grafana:
+    adminPassword: null
+    defaultDashboardsEnabled: true
+    ingress:
+      enabled: true
+      ingressClassName: nginx
+      hosts:
+        - grafana.biggibson.cocotree.cc
+    persistence:
+      enabled: false
+    grafana.ini:
+      server:
+        root_url: http://grafana.biggibson.cocotree.cc
+      auth.anonymous:
+        enabled: true
+
+  prometheus:
+    prometheusSpec:
+      ruleSelectorNilUsesHelmValues: false
+      serviceMonitorSelectorNilUsesHelmValues: false
+      podMonitorSelectorNilUsesHelmValues: false
+      probeSelectorNilUsesHelmValues: false
+    ingress:
+      enabled: true
+      ingressClassName: nginx
+      hosts:
+        - prometheus.biggibson.cocotree.cc
