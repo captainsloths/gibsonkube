@@ -60,11 +60,14 @@ app-template:
                 show: true
                 cpu: true
                 memory: true
+                showLabel:  true
+                label: "gibson-kube"
               nodes:
                 show: true
                 cpu: true
                 memory: true
                 showLabel: true
+
         services.yaml: |
           - Development:
             - Github:
