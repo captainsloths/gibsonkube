@@ -94,3 +94,6 @@ app-template:
             - Proxmox:
               - href: https://gibson-virt.biggibson.cocotree.cc:8006
                 icon: proxmox.svg
+            - Palantir
+              - href: https://palantir.biggibson.cocotree.cc:8443
+              - icon: unifi.svg
