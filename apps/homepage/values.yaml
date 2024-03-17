@@ -65,6 +65,15 @@ app-template:
                 href: https://argo.biggibson.cocotree.cc
                 description: Continuous deployment
                 icon: argocd.svg
+          - Monitoring:
+            - Grafana:
+                href: https://grafana.biggibson.cocotree.cc
+                description: Pretty charts letting me know when things blow up
+                icon: grafana.svg
+            - Prometheus:
+                href: https://prometheus.biggibson.cocotree.cc
+                description: Primary Grafana datasource
+                icon: prometheus.svg
           - Utilities:
             - Excalidraw:
                 href: https://draw.biggibson.cocotree.cc
