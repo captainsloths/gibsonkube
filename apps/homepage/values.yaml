@@ -60,7 +60,7 @@ app-template:
             - Github:
                 href: https://github.com/captainsloths
                 description: Git forge
-                icon: gitea.svg
+                icon: github.svg
             - ArgoCD:
                 href: https://argo.biggibson.cocotree.cc
                 description: Continuous deployment
