@@ -98,4 +98,4 @@ app-template:
                 icon: proxmox.svg
             - Palantir:
               - href: https://palantir.biggibson.cocotree.cc:8443
-              - icon: unifi.svg
+              - icon: ubiquiti.svg
