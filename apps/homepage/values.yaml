@@ -58,7 +58,7 @@ app-template:
         services.yaml: |
           - Development:
             - Github:
-                href: https://github.com/captainsloths
+                href: https://github.com/captainsloths/gibsonkube
                 description: The heart
                 icon: github.svg
             - ArgoCD:
