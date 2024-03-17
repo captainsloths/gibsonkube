@@ -97,10 +97,10 @@ app-template:
                 icon: tailscale.svg
           - Infrastructure:
             - Router:
-              - href: https://10.27.27.1:440
+              - href: http://10.27.27.1:440
                 icon: router.svg
             - Adguard:
-              - href: https://10.27.27.1:81
+              - href: http://10.27.27.1:81
                 icon: adguard-home.svg
             - Proxmox:
               - href: https://gibson-virt.biggibson.cocotree.cc:8006
