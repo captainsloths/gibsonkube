@@ -56,7 +56,6 @@ app-template:
               provider: google
               target: _blank
         services.yaml: |
-          - Popular:
           - Development:
             - Github:
                 href: https://github.com/captainsloths
